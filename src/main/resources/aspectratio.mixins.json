@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.taycee.aspectratio.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinGameRenderer",
+    "MixinOptionsScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

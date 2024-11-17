@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aspectratio",
+  "version": "${version}",
+  "name": "AspectRatio",
+  "description": "Adds a slider to modify your aspect ratio.",
+  "authors": ["taycee"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/aspectratio/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.taycee.aspectratio.AspectRatio"
+    ]
+  },
+  "mixins": [
+    "aspectratio.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
